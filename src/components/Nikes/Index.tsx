@@ -203,7 +203,7 @@ const NikeContainer = styled.div`
       border-top-left-radius: 5pc;
       border-bottom-left-radius: 5pc;
       box-shadow: -2px 5px 5px #2632380a;
-      height: 50px;
+      /* height: 50px; */
       &.active {
         width: 95%;
         border-top-left-radius: 10pc;
