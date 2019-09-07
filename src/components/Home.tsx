@@ -16,7 +16,7 @@ const designs = [
     image: '/nanya-music-landing-page.jpg',
     link: '/nanya-music-by-sky-micheal-ajah',
     credit: {
-      link: '#',
+      link: 'https://dribbble.com/naijatechguy',
       name: 'Sky Micheal Ajah'
     }
   }
@@ -34,7 +34,7 @@ const HomePage: React.FC = () => {
               <h3>{design.title}</h3>
               {design.credit.name ? (
                 <p>
-                  Design By: <a href={design.credit.link}>{design.credit.name}</a>
+                  Design By: <a href={design.credit.link} target="_blank">{design.credit.name}</a>
                 </p>
               ) : null}
             </div>
