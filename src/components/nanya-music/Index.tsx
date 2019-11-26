@@ -10,15 +10,15 @@ const NanyaMusic: React.FC = () => {
     <Container>
       <div className="content">
         <nav>
-          <a href="#" className="logo">
+          <a href="#NANYA MUSIC" className="logo">
             NANYA MUSIC
           </a>
           <div className="links">
-            <a href="#">About</a>
-            <a href="#">Music</a>
-            <a href="#">Videos</a>
-            <a href="#">Events</a>
-            <a href="#">Booking</a>
+            <a href="#About">About</a>
+            <a href="#Music">Music</a>
+            <a href="#Videos">Videos</a>
+            <a href="#Events">Events</a>
+            <a href="#Booking">Booking</a>
           </div>
         </nav>
         <main>
@@ -33,25 +33,25 @@ const NanyaMusic: React.FC = () => {
                 deserunt laudantium nihil esse.
               </p>
               <div className="action-buttons">
-                <a href="#" className="btn">
+                <a href="#Watch Videos" className="btn">
                   Watch Videos
                 </a>
-                <a href="#" className="btn outline">
+                <a href="#Buy Music" className="btn outline">
                   Buy Music
                 </a>
               </div>
             </div>
             <div className="socials">
-              <a href="">
+              <a href="https://twitter.com/deakumzy">
                 <TwitterLogo />
               </a>
-              <a href="">
+              <a href="https://youtube.com">
                 <YoutubeLogo />
               </a>
-              <a href="">
+              <a href="https://instagram.com">
                 <InstagramLogo className="instagram" />
               </a>
-              <a href="">
+              <a href="https://facebook.com">
                 <FacebookLogo className="facebook" />
               </a>
             </div>
@@ -80,7 +80,7 @@ const NanyaMusic: React.FC = () => {
             <address>Felabration 2020, 02 Arena London</address>
           </div>
           <div style={{ marginTop: '1em', display: 'inline-flex' }}>
-            <a href="#" className="btn more">
+            <a href="#More Events" className="btn more">
               More Events
             </a>
           </div>
